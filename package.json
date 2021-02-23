@@ -1,8 +1,7 @@
 {
-  "name": "middle-web-dva-template",
-  "description": "{{description}}",
-  "author": "{{author}}",
-  "version": "0.1.0",
+  "name": "dva-web-template",
+  "author": "season",
+  "version": "1.0.0",
   "private": true,
   "homepage": ".",
   "scripts": {
