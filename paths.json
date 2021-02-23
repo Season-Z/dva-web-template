@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "*": ["src/*"],
+      "@utils/*": ["src/utils/*"],
+      "@config/*": ["src/config/*"],
+      "@components/*": ["src/components/*"],
+      "@router/*": ["src/router/*"],
+      "@views/*": ["src/views/*"],
+      "@css/*": ["src/assets/css"],
+      "@image/*": ["src/assets/images"],
+      "@layout/*": ["src/layout/*"],
+      "@typings/*": ["src/typings/*"],
+      "@services/*": ["src/services/*"]
+    }
+  }
+}
