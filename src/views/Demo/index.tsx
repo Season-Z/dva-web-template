@@ -22,7 +22,7 @@ const Demo: React.FC<Props> = (userProps) => {
         <FormBuilder elements={formfields} />
       </div>
       <div className='flexFill wrapContent'>
-        <CommonTable columns={columns} queryDataUrl='purchase.transfer.queryTransferOrderList' />
+        <CommonTable columns={columns} requestUrl='purchase.transfer.queryTransferOrderList' />
       </div>
     </div>
   );

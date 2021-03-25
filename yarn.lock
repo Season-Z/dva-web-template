@@ -1972,6 +1972,11 @@
   resolved "http://nexus.ypsx-internal.com/repository/npm-group/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
 
+"@yarnpkg/lockfile@^1.1.0":
+  version "1.1.0"
+  resolved "http://nexus.ypsx-internal.com/repository/npm-group/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
+  integrity sha1-53qX+9NFt22DJF7c0X05OxtB+zE=
+
 abab@^2.0.0:
   version "2.0.5"
   resolved "http://nexus.ypsx-internal.com/repository/npm-group/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
@@ -3552,6 +3557,11 @@ commander@^2.20.0:
   version "2.20.3"
   resolved "http://nexus.ypsx-internal.com/repository/npm-group/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+
+commander@^6.1.0:
+  version "6.2.1"
+  resolved "http://nexus.ypsx-internal.com/repository/npm-group/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
+  integrity sha1-B5LraC37wyWZm7K4T93duhEKxzw=
 
 commander@^7.0.0:
   version "7.1.0"
@@ -13383,6 +13393,15 @@ yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
+yarn-deduplicate@^3.1.0:
+  version "3.1.0"
+  resolved "http://nexus.ypsx-internal.com/repository/npm-group/yarn-deduplicate/-/yarn-deduplicate-3.1.0.tgz#3018d93e95f855f236a215b591fe8bc4bcabba3e"
+  integrity sha1-MBjZPpX4VfI2ohW1kf6LxLyruj4=
+  dependencies:
+    "@yarnpkg/lockfile" "^1.1.0"
+    commander "^6.1.0"
+    semver "^7.3.2"
+
 yorkie@^2.0.0:
   version "2.0.0"
   resolved "http://nexus.ypsx-internal.com/repository/npm-group/yorkie/-/yorkie-2.0.0.tgz#92411912d435214e12c51c2ae1093e54b6bb83d9"
@@ -13393,10 +13412,10 @@ yorkie@^2.0.0:
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
 
-yp-frontend-library@^2.0.2:
-  version "2.0.2"
-  resolved "http://nexus.ypsx-internal.com/repository/npm-group/yp-frontend-library/-/yp-frontend-library-2.0.2.tgz#d32f0f199cd702baa702d2de975d9ac8497e5577"
-  integrity sha512-VOvl8rUL1GMsOI7tNYEqYqYUDsD4os7PYlVlMOy5wYoOexb9TolO3wPtD1W3TS5n5JloMi/5OWIFrQvre7qYzQ==
+yp-frontend-library@^2.0.3:
+  version "2.0.3"
+  resolved "http://nexus.ypsx-internal.com/repository/npm-group/yp-frontend-library/-/yp-frontend-library-2.0.3.tgz#daf2b876df73478e4a7859f57db2938ad4af8c66"
+  integrity sha512-6PGQyrPsS68vZDDWogMULEbaW4ouRwUAHoPksNrQw0LI6kaz05a4sDMHkvfE9zqLvDpEFQhmzF5vL+ViP/CmrA==
   dependencies:
     "@ant-design/icons" "^4.1.0"
     antd "^4.1.5"
@@ -13410,6 +13429,7 @@ yp-frontend-library@^2.0.2:
     react "^16.13.1"
     store2 "^2.12.0"
     use-media-antd-query "^1.0.2"
+    yarn-deduplicate "^3.1.0"
     yorkie "^2.0.0"
 
 yp-plop@^1.0.11:

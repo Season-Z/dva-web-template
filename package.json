@@ -28,7 +28,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "yp-frontend-library": "^2.0.2",
+    "yp-frontend-library": "^2.0.3",
     "yp-plop": "^1.0.11"
   },
   "devDependencies": {

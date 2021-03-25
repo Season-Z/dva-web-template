@@ -1,4 +1,4 @@
-import { EleProps } from 'yp-frontend-library/dist/src/components/Form/FormBuilder';
+import { EleProps } from 'yp-frontend-library/lib/src/FormBuilder';
 
 const formfields: EleProps[] = [
   {
